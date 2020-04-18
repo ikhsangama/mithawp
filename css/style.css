@@ -1,0 +1,108 @@
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+/* ---- base ---- */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 10px;
+	font-family: "Slabo", serif;
+	color: #ffffff;
+}
+
+h1 {
+	font-size: 8vw;
+	letter-spacing: normal;
+	left: 12.5%;
+	padding: 2% 5%;
+}
+
+#greeting {
+	font-size: 6vw;
+	letter-spacing: normal;
+	/* position: absolute; */
+	padding-left: 5%;
+	margin-top: 10vh;
+}
+
+#mitha {
+	font-size: 8vw;
+	letter-spacing: normal;
+	padding-left: 5%;
+	margin-top: 5%;
+}
+
+#quote {
+	font-size: 4vw;
+	letter-spacing: normal;
+	padding-left: 5%;
+	margin-top: 5%;
+}
+
+a {
+	color: #3949ab;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+section {
+	width: 100%;
+	height: 100vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	position: relative;
+	animation: change 10s ease-in-out infinite;
+}
+/* ---- particles.js container ---- */
+
+#particles-js {
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+}
+
+@keyframes change {
+	0% {
+		background-position: 0 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0 50%;
+	}
+}
+
+#page-wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+}
+
+.clock {
+	position: absolute;
+	top: 8px;
+	right: 16px;
+	color: #fffe;
+	font-size: 3vw;
+	font-family: Orbitron;
+	letter-spacing: normal;
+}

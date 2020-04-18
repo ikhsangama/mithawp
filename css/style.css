@@ -15,7 +15,7 @@
 }
 
 body {
-	font-size: 10px;
+	/* font-size: 10px; */
 	font-family: "Slabo", serif;
 	color: #ffffff;
 }
@@ -28,18 +28,18 @@ h1 {
 }
 
 #greeting {
-	font-size: 8vw;
+	font-size: 9vw;
 	letter-spacing: normal;
 	/* position: absolute; */
 	padding-left: 5%;
-	margin-top: 20vh;
+	margin-top: 10%;
 }
 
 #mitha {
 	font-size: 11vw;
 	letter-spacing: normal;
 	padding-left: 5%;
-	margin-top: 5vh;
+	margin-top: 5%;
 }
 
 #quote {
@@ -48,7 +48,7 @@ h1 {
 	letter-spacing: normal;
 	padding-left: 5%;
 	padding-right: 5%;
-	margin-top: 15vh;
+	margin-top: 5%;
 }
 
 a {

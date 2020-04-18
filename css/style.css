@@ -32,22 +32,23 @@ h1 {
 	letter-spacing: normal;
 	/* position: absolute; */
 	padding-left: 5%;
-	margin-top: 10vh;
+	margin-top: 20vh;
 }
 
 #mitha {
 	font-size: 11vw;
 	letter-spacing: normal;
 	padding-left: 5%;
-	margin-top: 5%;
+	margin-top: 5vh;
 }
 
 #quote {
+	font-style: italic;
 	font-size: 6vw;
 	letter-spacing: normal;
 	padding-left: 5%;
 	padding-right: 5%;
-	margin-top: 5%;
+	margin-top: 15vh;
 }
 
 a {
